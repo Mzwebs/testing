@@ -1,0 +1,139 @@
+html, body, header, .view {
+    height: 100%;
+}
+@media (max-width: 740px) {
+    html, body, header, .view {
+        height: 1000px;
+   }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    html, body, header, .view {
+        height: 600px;
+   }
+}
+.btn .fa {
+    margin-left: 3px;
+}
+.top-nav-collapse {
+    background-color: #424f95 !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+   }
+}
+.btn-white {
+    color: black !important;
+}
+h6 {
+    line-height: 1.7;
+}
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+body, html {
+    height: 100%;
+}
+.bg {
+   /* The image used */
+    background-image: url("../imgs/beach-enjoyment-exercise-1390403.jpg");
+   /* Full height */
+    height: 100%;
+   /* Center and scale the image nicely */
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-color: rgb(250, 250, 250);
+}
+.row h3{
+    color: rgb(199, 197, 197);
+    font-size: 15px;
+}
+.row h1 {
+    color: rgb(102, 100, 100);
+    font-size: 30px;
+}
+@media (min-width: 992px) {
+    .row {
+        display: grid;
+        width: 700px;
+        float: left;
+        margin-left: 90px;
+        margin-top: 60px;
+   }
+}
+@media (min-width: 768px) {
+    .row {
+        display: grid;
+        width: 700px;
+        float: left;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 60px;
+   }
+}
+@media only screen and (max-width : 480px){
+    .callout-wrap, .vertical_photo {
+        margin-top:10px;
+   }
+    .banner-left, .banner-right, .content-left-side, .content-right-side{
+        width:100%;
+   }
+    .border_drop_bg {
+        margin-top:10px;
+        width:100%;
+   }
+    .vertical_photo {
+        display:none;
+   }
+}
+.row {
+    background-color: rgb(232, 232, 236);
+    padding: 30px;
+    margin-left: 20x;
+    margin-right: 2px;
+    margin-top: 60px;
+}
+.container {
+    position: relative;
+}
+.container a{
+    width: 100%;
+    display: grid;
+    color: rgb(255, 255, 255);
+    background-color:gray;
+    text-decoration: none;
+    height:50px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+.container img{
+    width:25px;
+    position: absolute ;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 85%;
+}
+.row p {
+    color: rgb(98, 95, 95);
+}
+.mySlides {
+    display: none;
+}
+.mySlides {
+    width: 100%;
+    height: auto;
+}
+
+
